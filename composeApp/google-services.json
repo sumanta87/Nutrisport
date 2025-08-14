@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "328863224930",
+    "project_id": "nutrisport-467714",
+    "storage_bucket": "nutrisport-467714.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:328863224930:android:713e192ec4f5274318ed3b",
+        "android_client_info": {
+          "package_name": "org.example.project.nutrisport"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "328863224930-6ed63okagpv6f30f46t5i8e58alf421u.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "org.example.project.nutrisport",
+            "certificate_hash": "c2a9bdb51c5a016af08bb77d141e53153a8ce4b6"
+          }
+        },
+        {
+          "client_id": "328863224930-gojfj72cbjcia143sv33n27re1psc363.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAXlDZ9D0CrE8KMwVwqnBNxEN_tW9Boir4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "328863224930-gojfj72cbjcia143sv33n27re1psc363.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
