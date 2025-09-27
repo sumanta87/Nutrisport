@@ -1,7 +1,6 @@
 package com.nutrisport.navigation
 
 import androidx.compose.runtime.Composable
-import androidx.navigation.NavDestination
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
@@ -22,9 +21,14 @@ fun SetUpNavGraph(startDestination: Screen = Screen.Auth){
        })
    }
    composable <Screen.HomeGraph>{
-       HomeGraphScreen()
+       HomeGraphScreen(
+           navigateToAuth = {
+               navController.navigate(Screen.Auth){
+                   popUpTo<Screen.HomeGraph> { inclusive =true  }
+               }
+           }
+       )
    }
-
     }
 
 }

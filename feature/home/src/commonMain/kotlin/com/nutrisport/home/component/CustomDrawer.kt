@@ -53,7 +53,7 @@ fun CustomDrawer(
                     when(item){
                         DrawerItem.Profile -> onProfileClick
                         DrawerItem.Contact -> onContactUsClick
-                        DrawerItem.SignOut -> onSignOutClick
+                        DrawerItem.SignOut -> onSignOutClick()
                         else -> {}
                     }
 
